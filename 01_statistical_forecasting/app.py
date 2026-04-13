@@ -86,6 +86,7 @@ html, body, .stApp {
 
 /* ── Hide Streamlit chrome ── */
 #MainMenu, footer, .stDeployButton { display: none !important; }
+[data-testid="stToolbar"] { display: none !important; }
 [data-testid="stHeader"] { background: transparent !important; }
 
 /* ── Sidebar toggle — always visible ── */
@@ -99,7 +100,6 @@ html, body, .stApp {
     border-radius: 0 6px 6px 0 !important;
     box-shadow: 2px 0 6px rgba(0,0,0,0.06) !important;
 }
-[data-testid="stToolbar"] { display: none !important; }
 
 /* ── Layout ── */
 .block-container { padding: 0.75rem 1.5rem 1rem 1.5rem !important; max-width: 100% !important; }
