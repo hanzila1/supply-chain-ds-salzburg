@@ -84,21 +84,35 @@ html, body, .stApp {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-/* ── Hide Streamlit chrome ── */
-#MainMenu, footer, .stDeployButton { display: none !important; }
-[data-testid="stToolbar"] { display: none !important; }
-[data-testid="stHeader"] { background: transparent !important; }
+/* ── Hide only what is safe to hide ── */
+#MainMenu { display: none !important; }
+footer { display: none !important; }
+.stDeployButton { display: none !important; }
 
-/* ── Sidebar toggle — always visible ── */
-[data-testid="collapsedControl"] {
+/* ── Keep header but make it clean ── */
+[data-testid="stHeader"] {
+    background: #f8f9fb !important;
+    border-bottom: 1px solid #e2e6ec !important;
+    height: 3rem !important;
+}
+
+/* ── Sidebar always open and visible ── */
+[data-testid="stSidebar"] {
+    min-width: 260px !important;
+    max-width: 320px !important;
+}
+
+/* ── Sidebar toggle button — work with all Streamlit versions ── */
+button[kind="header"],
+[data-testid="baseButton-header"],
+[data-testid="collapsedControl"],
+.st-emotion-cache-zq5wmm,
+.st-emotion-cache-1rtdyuf,
+.e1fqkh3o2 {
     display: flex !important;
     visibility: visible !important;
     opacity: 1 !important;
-    color: #0f1923 !important;
-    background: #ffffff !important;
-    border: 1px solid #e2e6ec !important;
-    border-radius: 0 6px 6px 0 !important;
-    box-shadow: 2px 0 6px rgba(0,0,0,0.06) !important;
+    z-index: 9999 !important;
 }
 
 /* ── Layout ── */
