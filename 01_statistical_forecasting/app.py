@@ -85,7 +85,20 @@ html, body, .stApp {
 }
 
 /* ── Hide Streamlit chrome ── */
-#MainMenu, footer, header, .stDeployButton { display: none !important; }
+#MainMenu, footer, .stDeployButton { display: none !important; }
+[data-testid="stHeader"] { background: transparent !important; }
+
+/* ── Sidebar toggle — always visible ── */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: #0f1923 !important;
+    background: #ffffff !important;
+    border: 1px solid #e2e6ec !important;
+    border-radius: 0 6px 6px 0 !important;
+    box-shadow: 2px 0 6px rgba(0,0,0,0.06) !important;
+}
 [data-testid="stToolbar"] { display: none !important; }
 
 /* ── Layout ── */
