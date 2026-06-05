@@ -1,5 +1,7 @@
 # Supply Chain Data Science — Salzburg
 
+![Hero Banner](hero%20banner.png)
+
 > A progressive portfolio built alongside EM CDE studies at the University of Salzburg,
 > covering demand forecasting, ML models, and geospatial EUDR compliance risk scoring
 > for FMCG supply chains.
@@ -14,7 +16,7 @@ This repository documents a structured learning and building journey at the inte
 - **Geospatial AI** — satellite-based supplier risk scoring using Google Earth Engine
 - **EUDR compliance** — automated deforestation risk assessment for ingredient procurement
 
-Previously co-developed [GeoGemma](https://github.com/yourusername/geogemma) —
+Previously co-developed [GeoGemma](https://github.com/GeoGemma/GeoGemma-APAC-2025) —
 winner of **Best AI Use Case** at the Google & ADB Asia-Pacific Solution Challenge 2024 —
 a geospatial LLM built on Google Earth Engine. This repository applies those geospatial
 methods to supply chain compliance and demand forecasting.
@@ -33,6 +35,7 @@ supply-chain-ds-salzburg/
 │   ├── 04_triple_exponential_smoothing.ipynb
 │   ├── 05_outlier_handling.ipynb
 │   ├── 06_forecast_kpis.ipynb
+│   ├── app.py                      # Streamlit demand intelligence dashboard
 │   └── README.md
 │
 ├── 02_machine_learning/            # Part II: ML models for demand forecasting
@@ -67,15 +70,20 @@ supply-chain-ds-salzburg/
 
 ---
 
+## Architecture
+
+![Architecture Diagram](architecture%20diagram.png)
+
+---
+
 ## Roadmap
 
 | Month | Focus | Status |
 |-------|-------|--------|
-| April 2025 | Statistical forecasting models (Part I) | 🔄 In progress |
-| May 2025 | ML models — trees, forests, XGBoost (Part II) | ⏳ Upcoming |
-| June 2025 | External demand drivers + features | ⏳ Upcoming |
-| July 2025 | EUDR geospatial supplier risk pipeline (Part III) | ⏳ Upcoming |
-| August 2025 | Integrated tool + dashboard + case study (Part IV) | ⏳ Upcoming |
+| April 2025 | Statistical forecasting models (Part I) | ✅ Complete |
+| May–June 2025 | ML models — XGBoost, external drivers (Part II) | 🔄 Partial (3/5 notebooks done) |
+| July 2025 | EUDR geospatial supplier risk pipeline (Part III) | ✅ Complete (2/3 notebooks done) |
+| August 2025 | Integrated tool + dashboard + case study (Part IV) | ✅ Complete |
 
 ---
 
@@ -85,6 +93,7 @@ supply-chain-ds-salzburg/
 Python 3.10+      pandas / numpy / matplotlib / scipy
 scikit-learn      Decision trees, random forests, clustering
 XGBoost           Gradient boosting for demand forecasting
+Plotly            Interactive charts (demand intelligence dashboard)
 Google Earth Engine  Satellite imagery & deforestation data
 Streamlit         Interactive dashboard
 Jupyter           All notebooks
@@ -105,4 +114,4 @@ Jupyter           All notebooks
 
 **Hanzila Bin Younus**
 EM CDE Student — University of Salzburg
-[LinkedIn](https://linkedin.com/in/hanzila-bin-younus-geogemma) · [GeoGemma](https://github.com/yourusername/geogemma)
+[LinkedIn](https://linkedin.com/in/hanzila-bin-younus-geogemma) · [GeoGemma](https://github.com/GeoGemma/GeoGemma-APAC-2025)

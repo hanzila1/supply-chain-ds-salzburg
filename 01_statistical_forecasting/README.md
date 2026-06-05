@@ -14,6 +14,14 @@ Based on Vandeput (2021), Chapters 1–11.
 | 05 | `05_outlier_handling.ipynb` | Ch 10 | Winsorization, std dev method |
 | 06 | `06_forecast_kpis.ipynb` | Ch 2 | MAE, RMSE, MAPE, Bias, model comparison |
 
+### Interactive Dashboard
+
+Run the full **Demand Intelligence Platform** (Streamlit app):
+```bash
+cd 01_statistical_forecasting
+streamlit run app.py
+```
+
 ## Key Concepts
 
 **The forecasting model progression:**

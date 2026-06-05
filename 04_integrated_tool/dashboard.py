@@ -142,7 +142,7 @@ with tab2:
         return 'color: #1D9E75'
 
     st.dataframe(
-        suppliers[display_cols].style.applymap(
+        suppliers[display_cols].style.map(
             style_risk, subset=['risk_level']),
         use_container_width=True, hide_index=True
     )

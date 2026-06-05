@@ -17,7 +17,6 @@ warnings.filterwarnings('ignore')
 
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error
-from scipy.optimize import minimize
 
 
 # ─────────────────────────────────────────────
