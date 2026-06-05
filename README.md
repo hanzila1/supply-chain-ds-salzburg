@@ -6,13 +6,33 @@
 > covering demand forecasting, ML models, and geospatial EUDR compliance risk scoring
 > for FMCG supply chains.
 
-🚀 **[Live App → demandforecastinglab.streamlit.app](https://demandforecastinglab.streamlit.app/)**
+[![Live App](https://img.shields.io/badge/🚀_Live_App-demandforecastinglab.streamlit.app-FF4B4B?style=for-the-badge)](https://demandforecastinglab.streamlit.app/)
 
 ---
 
-## Demo
+## Demand Forecasting Intelligence Platform
 
-https://github.com/hanzila1/supply-chain-ds-salzburg/raw/main/demandforecastinglab.mp4
+Most supply chain forecasters are making their accuracy worse — not better. Applying the wrong model to the wrong demand shape introduces error that wasn't there. High-alpha smoothers chase randomness instead of signal. Optimising without a holdout test leads to overfitting.
+
+This is called **negative Forecast Value Added (FVA)** — and it happens more than most planning teams admit.
+
+To fix this, I built an interactive diagnostic sandbox — a *"flight simulator" for demand planners* — to see exactly how algorithms react to data without risking company inventory.
+
+**What it does:**
+
+- 🔹 **Generate** any demand profile (trend, seasonality, noise, outliers)
+- 🔹 **Run 5 classical models** simultaneously (Naïve, MA, SES, Holt's, Damped Trend)
+- 🔹 **Track real-time KPIs** — MAE, Bias, and FVA vs the Naïve benchmark
+- 🔹 **Tune parameters live** and watch the model's "memory" shift on the graph
+- 🔹 **Upload your own CSV** to test these algorithms on your actual company data
+
+No black boxes. Understand what your multi-million dollar ERP is doing under the hood.
+
+> 🔜 **Coming next:** LLM-based optimisation engine + **ML Studio** update bringing XGBoost and LightGBM into the platform to compare classical statistics against modern Machine Learning.
+
+### Demo
+
+<video src="demandforecastinglab.mp4" controls width="100%"></video>
 
 ---
 
