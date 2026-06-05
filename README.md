@@ -6,6 +6,14 @@
 > covering demand forecasting, ML models, and geospatial EUDR compliance risk scoring
 > for FMCG supply chains.
 
+🚀 **[Live App → demandforecastinglab.streamlit.app](https://demandforecastinglab.streamlit.app/)**
+
+---
+
+## Demo
+
+https://github.com/hanzila1/supply-chain-ds-salzburg/raw/main/demandforecastinglab.mp4
+
 ---
 
 ## About
