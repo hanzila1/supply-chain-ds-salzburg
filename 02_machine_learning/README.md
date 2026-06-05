@@ -1,7 +1,6 @@
 # Part II — Machine Learning
 
 ML-based demand forecasting, from decision trees to XGBoost with external drivers.
-Based on Vandeput (2021), Chapters 12–24.
 
 ## Notebooks
 

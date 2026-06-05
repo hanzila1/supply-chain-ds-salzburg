@@ -1,7 +1,6 @@
 # Part I — Statistical Forecasting
 
 Classical time series forecasting models, implemented from scratch in Python.
-Based on Vandeput (2021), Chapters 1–11.
 
 ## Notebooks
 

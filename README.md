@@ -32,7 +32,7 @@ No black boxes. Understand what your multi-million dollar ERP is doing under the
 
 ### Demo
 
-<video src="demandforecastinglab.mp4" controls width="100%"></video>
+<!-- DEMO_VIDEO -->
 
 ---
 
@@ -131,9 +131,9 @@ Jupyter           All notebooks
 
 ## Key References
 
-- Vandeput, N. (2021). *Data Science for Supply Chain Forecasting* (2nd ed.). De Gruyter.
 - EU Regulation (EU) 2023/1115 — EU Deforestation Regulation (EUDR)
 - Google Earth Engine — [earthengine.google.com](https://earthengine.google.com)
+- AlphaEarth Foundations — [Scaling Transparency: Annual Pan-Tropical Commodity Maps](https://medium.com/google-earth/scaling-transparency-annual-pan-tropical-commodity-maps-powered-by-alphaearth-foundations-5f4066b5dd13)
 - Global Forest Watch — [globalforestwatch.org](https://www.globalforestwatch.org)
 
 ---
