@@ -1,6 +1,6 @@
 # Supply Chain Data Science — Salzburg
 
-![Hero Banner](hero%20banner.png)
+![Hero Banner](assets/hero%20banner.png)
 
 > A progressive portfolio built alongside EM CDE studies at the University of Salzburg,
 > covering demand forecasting, ML models, and geospatial EUDR compliance risk scoring
@@ -32,7 +32,7 @@ No black boxes. Understand what your multi-million dollar ERP is doing under the
 
 ### Demo
 
-<!-- DEMO_VIDEO -->
+![Demo](assets/demandforecastinglab.gif)
 
 ---
 
@@ -100,7 +100,7 @@ supply-chain-ds-salzburg/
 
 ## Architecture
 
-![Architecture Diagram](architecture%20diagram.png)
+![Architecture Diagram](assets/architecture%20diagram.png)
 
 ---
 
