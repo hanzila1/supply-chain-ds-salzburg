@@ -30,6 +30,27 @@ No black boxes. Understand what your multi-million dollar ERP is doing under the
 
 > 🔜 **Coming next:** LLM-based optimisation engine + **ML Studio** update bringing XGBoost and LightGBM into the platform to compare classical statistics against modern Machine Learning.
 
+### 📊 Visual Results
+
+<table>
+  <tr>
+    <td align="center"><b>Demand Forecasting with Confidence Intervals</b></td>
+    <td align="center"><b>Moving Average Window Comparison</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/Demand%20forecasting%20with%20confidence%20intervals.png" width="100%"></td>
+    <td><img src="assets/Moving%20average%20window%20comparison%20chart.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Forecast Error Analysis</b></td>
+    <td align="center"><b>Forecast Accuracy Comparison</b></td>
+  </tr>
+  <tr>
+    <td><img src="assets/Forecast%20error%20analysis%20dashboard.png" width="100%"></td>
+    <td><img src="assets/Forecast%20accuracy%20comparison%20dashboard.png" width="100%"></td>
+  </tr>
+</table>
+
 ### Demo
 
 ![Demo](assets/demandforecastinglab.gif)
