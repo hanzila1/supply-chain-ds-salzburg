@@ -66,7 +66,7 @@ This repository documents a structured learning and building journey at the inte
 - **EUDR compliance** — automated deforestation risk assessment for ingredient procurement
 
 Previously co-developed [GeoGemma](https://github.com/GeoGemma/GeoGemma-APAC-2025) —
-winner of **Best AI Use Case** at the Google & ADB Asia-Pacific Solution Challenge 2024 —
+winner of **Best AI Use Case** at the Google & ADB Asia-Pacific Solution Challenge 2025 —
 a geospatial LLM built on Google Earth Engine. This repository applies those geospatial
 methods to supply chain compliance and demand forecasting.
 
@@ -152,10 +152,10 @@ Jupyter           All notebooks
 
 ## Key References
 
-- EU Regulation (EU) 2023/1115 — EU Deforestation Regulation (EUDR)
-- Google Earth Engine — [earthengine.google.com](https://earthengine.google.com)
+- [EU Regulation (EU) 2023/1115 — EU Deforestation Regulation (EUDR)](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en)
 - AlphaEarth Foundations — [Scaling Transparency: Annual Pan-Tropical Commodity Maps](https://medium.com/google-earth/scaling-transparency-annual-pan-tropical-commodity-maps-powered-by-alphaearth-foundations-5f4066b5dd13)
 - Global Forest Watch — [globalforestwatch.org](https://www.globalforestwatch.org)
+- Google Earth Engine — [earthengine.google.com](https://earthengine.google.com)
 
 ---
 
